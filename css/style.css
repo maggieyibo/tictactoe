@@ -48,6 +48,9 @@ p {
     border-radius: 35px; 
 
 }
+.playerOne:hover {
+    background-color: #34495e;
+}
 
 .playerTwo {
     width: 96px;
@@ -72,15 +75,3 @@ button:hover {
     background-color: gray;
 }
 
-button:active {
-    outline: none;
-    border: none;
-}
-
-button .newgame {
-    margin-top: 10px;
-}
-
-.hidden {
-    display: none;
-}
